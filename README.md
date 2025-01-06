@@ -76,7 +76,7 @@ Visit the Hugging Face Space to interact with the model:
 Upload an image of pasta, and the model will classify it, providing the top 3 most likely pasta types along with the probabilities.
 
 ## Improvements
-While the model performs well, there are still potential improvements that can be made:
+The trained model achieved an error rate of 14% on the test set, indicating that it correctly classified pasta shapes with high accuracy. However, some pasta shapes, such as farfalle and macaroni, were occasionally confused with others, particularly penne. Further improvements can be made by:
 - Increase Dataset Size: We used less than 100 images for most categories. Increasing the dataset can improve accuracy.
 - Improve Data Quality: Manually curate images for better quality and consistency.
 - Use More Complex Models: Experiment with deeper architectures like ResNet34 or ResNet50.
