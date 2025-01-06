@@ -10,7 +10,7 @@ def predict(img):
     return {labels[i]: float(probs[i]) for i in range(len(labels))}
 
 # to generate examples
-pastas = ['spaghetti', 'penne', 'fusilli', 'farfalle', 'fettuccine', 'macaroni', 'orecchiette', 'gnocchi']
+pastas = ['penne', 'fusilli', 'fettuccine', 'macaroni', 'orecchiette', 'gnocchi']
 
 gr.Interface(
     fn=predict,
