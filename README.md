@@ -14,6 +14,7 @@ Visit the Hugging Face Space to interact with the model:
 4. [Web Application](#web-application)
 5. [How to Use](#how-to-use)
 6. [Improvements](#improvements)
+7. [License](#license)
 
 ## Overview
 
@@ -82,4 +83,5 @@ The trained model achieved an error rate of 14% on the test set, indicating that
 - Use More Complex Models: Experiment with deeper architectures like ResNet34 or ResNet50.
 - Training for More Epochs: The model was trained for only 2 epochs, so training for more epochs could improve results.
 
-This project is licensed under the Apache 2.0 License.
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](./LICENSE) file for details.
