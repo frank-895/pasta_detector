@@ -61,6 +61,9 @@ I used a pretrained ResNet18 model for transfer learning, fine-tuning it on the 
 learn = vision_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(2)
 ```
+
+This is where I made an important learning discovery... you need to switch on the GPU in Colab for it to work! This explains my very long training time of over 7 minutes per epoch. 
+
 ### Model Evaluation
 We evaluated the model using a confusion matrix and improved the model by cleaning up misclassified images using ```ImageClassifierCleaner```.
 
