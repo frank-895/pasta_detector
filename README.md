@@ -1,4 +1,4 @@
-# Pasta Detector 🍝
+# Mr Pasta Detector 🍝
 
 A deep learning model that can identify different pasta shapes based on images. Trained using fastai and deployed on Hugging Face Spaces. 
 
